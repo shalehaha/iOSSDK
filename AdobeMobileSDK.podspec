@@ -113,7 +113,7 @@ Pod::Spec.new do |s|
   s.frameworks = "UIKit", "SystemConfiguration", "CoreLocation"
 
   # s.library   = "iconv"
-   s.libraries = "AdobeMobile,sqlite3.0"
+   s.libraries = "AdobeMobile","sqlite3.0"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
