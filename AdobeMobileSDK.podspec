@@ -100,7 +100,7 @@ Pod::Spec.new do |s|
   s.resource  = "AdobeMobileLibrary/ADBMobileConfig.json"
   # s.resources = "AdobeMobileLibrary/*"
 
-  s.preserve_paths = "AdobeMobileLibrary/AdobeMobileLibrary.a", "AdobeMobileLibrary/ADBMobileConfig.json"
+  s.preserve_paths = "AdobeMobileLibrary/libAdobeMobileLibrary.a", "AdobeMobileLibrary/ADBMobileConfig.json"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
