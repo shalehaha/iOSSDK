@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/shalehaha/iOSSDK.git", :tag => "4.3.0" }
+  s.source       = { :git => "https://github.com/shalehaha/mobile-services.git", :tag => "4.3.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -83,7 +83,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AdobeMobileLibrary/*.h"
+  s.source_files  = "sdks/iOS/AdobeMobileLibrary/*.h"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -97,10 +97,10 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "AdobeMobileLibrary/ADBMobileConfig.json"
+  s.resource  = "sdks/iOS/AdobeMobileLibrary/ADBMobileConfig.json"
   # s.resources = "AdobeMobileLibrary/*"
 
-  s.preserve_paths = "AdobeMobileLibrary/libAdobeMobileLibrary.a", "AdobeMobileLibrary/ADBMobileConfig.json"
+  s.preserve_paths = "sdks/iOS/AdobeMobileLibrary/libAdobeMobileLibrary.a", "sdks/iOS/AdobeMobileLibrary/ADBMobileConfig.json"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
