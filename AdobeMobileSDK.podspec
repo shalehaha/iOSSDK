@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = "AdobeMobileLibrary/*"
 
   s.preserve_paths = "AdobeMobileLibrary/AdobeMobileLibrary.a", "AdobeMobileLibrary/ADBMobileConfig.json"
 
