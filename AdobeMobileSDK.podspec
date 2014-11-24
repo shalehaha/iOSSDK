@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "AdobeMobileLibrary/*"
+  # s.resources = "AdobeMobileLibrary/*"
 
   s.preserve_paths = "AdobeMobileLibrary/AdobeMobileLibrary.a", "AdobeMobileLibrary/ADBMobileConfig.json"
 
@@ -113,7 +113,7 @@ Pod::Spec.new do |s|
   s.frameworks = "UIKit", "SystemConfiguration", "CoreLocation"
 
   # s.library   = "iconv"
-   s.libraries = "sqlite3.0"
+   s.libraries = "AdobeMobileLibrary,sqlite3.0"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
