@@ -97,7 +97,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
+  s.resource  = "AdobeMobileLibrary/ADBMobileConfig.json"
   # s.resources = "AdobeMobileLibrary/*"
 
   s.preserve_paths = "AdobeMobileLibrary/AdobeMobileLibrary.a", "AdobeMobileLibrary/ADBMobileConfig.json"
